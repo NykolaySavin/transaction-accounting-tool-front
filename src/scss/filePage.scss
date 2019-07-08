@@ -1,0 +1,16 @@
+.file-page{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .block{
+    margin:20px;
+  }
+  .input-block{
+    width: 30%;
+  }
+  .table-block{
+    width: 60%;
+  }
+}
