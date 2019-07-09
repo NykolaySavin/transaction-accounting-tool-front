@@ -1,6 +1,8 @@
 export const state = {
-  files: { data: [] }
+  files: { data: [] },
+  categories: { data: [] }
 };
 export const test = {
-  files: { data: [] }
+  files: { data: [] },
+  categories: { data: [] }
 };
