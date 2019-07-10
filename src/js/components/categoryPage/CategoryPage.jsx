@@ -13,7 +13,7 @@ export default function CategoryPage({
 }) {
   return (
     <>
-      <div className="category-page">
+      <div className="page category-page">
         <form onSubmit={()=>{handleSubmit();history.push('/categories')}}>
           <TextInput label="Name" fieldName={category.name} />
           <TextInput label="Percent" fieldName={category.percent} />
@@ -22,7 +22,7 @@ export default function CategoryPage({
             fieldName={category.type}
             items={category.typeValues}
           />
-          <div>
+          <div className="button-group">
             <ButtonSubmit label="Submit" disabled={submitting}/>
             <Button
               disabled={pristine || submitting}

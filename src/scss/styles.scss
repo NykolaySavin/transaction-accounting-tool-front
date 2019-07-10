@@ -17,8 +17,8 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: solid 2px #000137;
-  border-top: solid 2px #000137;
+  border-bottom: solid 2px #212529;
+  border-top: solid 2px #212529;
   padding: 10px;
   menu-item{
     flex-grow: 1;
@@ -35,8 +35,25 @@ body{
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
-    color: #000137;
+    color: #212529;
     font-weight: 600;
     font-size: 20px;
   }
+}
+.page{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .block{
+    margin:10px;
+  }
+  .table-block{
+    width: 60%;
+  }
+}
+.link-decoration{
+  text-decoration: none;
+  color: white;
 }

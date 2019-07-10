@@ -1,7 +1,10 @@
 import { connect } from "react-redux";
-import CategoryPage from "./CategoryListPage";
+import CategoryListPage from "./CategoryListPage";
+import { handleDeletion } from "../../redux/modules/category.module";
 
-export const mapDispatchToProps = {};
+export const mapDispatchToProps = {
+  handleDeletion: handleDeletion
+};
 export const mapStateToProps = state => {
   return {
     items: state.categories.data
@@ -10,4 +13,4 @@ export const mapStateToProps = state => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(CategoryPage);
+)(CategoryListPage);

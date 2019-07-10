@@ -2,27 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abf96f7d-6f86-4356-8ec0-2e49c135ea66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/components/buttonLink/ButtonLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/buttonSubmit/ButtonSubmit.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/form/input/SelectInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/form/input/TextInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/core/forms/category.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/redux/modules/category.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/categoryListPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/components/button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/buttonLink/ButtonLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttonLink/ButtonLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/buttonSubmit/ButtonSubmit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/buttonSubmit/ButtonSubmit.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/filePage/FilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/filePage/FilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/form/input/SelectInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/form/input/SelectInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/form/input/TextInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/form/input/TextInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/components/index/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/index/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/state/app.state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/state/app.state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/modules/category.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/modules/category.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/categoryPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/categoryPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/filePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/filePage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CategoryPage.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CategoryPage.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="145">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -49,26 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryPage.container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.container.js">
+      <file leaf-file-name="categoryPage.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/categoryPage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryListPage.container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.container.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="38" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -76,20 +56,8 @@
       <file leaf-file-name="Button.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/button/Button.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonSubmit.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/components/buttonSubmit/ButtonSubmit.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="213">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -100,8 +68,20 @@
       <file leaf-file-name="ButtonLink.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/buttonLink/ButtonLink.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="85">
+              <caret line="6" column="106" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonSubmit.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/buttonSubmit/ButtonSubmit.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -112,8 +92,8 @@
       <file leaf-file-name="CategoryListPage.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="223">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -121,32 +101,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productUpload.module.input.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/redux/modules/productUpload.module.input.js">
+      <file leaf-file-name="filePage.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/filePage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuItem.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/header/menuItem/MenuItem.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/redux/modules/category.module.js">
+      <file leaf-file-name="Header.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/components/header/Header.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/redux/state/app.state.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="85">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,31 +171,34 @@
         <option value="$PROJECT_DIR$/src/js/components/header/menuItem/MainCategoryItem.jsx" />
         <option value="$PROJECT_DIR$/src/scss/font.css" />
         <option value="$PROJECT_DIR$/src/js/components/header/menuItem/MenuItem.jsx" />
-        <option value="$PROJECT_DIR$/src/js/components/header/Header.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/js/components/form/fileUploader/FileUploader.jsx" />
-        <option value="$PROJECT_DIR$/src/scss/filePage.scss" />
         <option value="$PROJECT_DIR$/src/js/components/filePage/FilePage.container.js" />
-        <option value="$PROJECT_DIR$/src/js/components/filePage/FilePage.jsx" />
         <option value="$PROJECT_DIR$/src/js/redux/modules/productUpload.module.input.js" />
         <option value="$PROJECT_DIR$/src/js/redux/state/app.state.js" />
-        <option value="$PROJECT_DIR$/src/js/components/buttonLink/ButtonLink.jsx" />
-        <option value="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx" />
-        <option value="$PROJECT_DIR$/src/scss/styles.scss" />
         <option value="$PROJECT_DIR$/src/js/redux/store.js" />
         <option value="$PROJECT_DIR$/src/js/components/input/TextInput.jsx" />
-        <option value="$PROJECT_DIR$/src/js/components/index/App.jsx" />
         <option value="$PROJECT_DIR$/src/js/components/input/SelectInput.jsx" />
         <option value="$PROJECT_DIR$/src/js/components/form/Form.jsx" />
         <option value="$PROJECT_DIR$/src/js/core/forms/category.form.js" />
-        <option value="$PROJECT_DIR$/src/js/components/form/input/SelectInput.jsx" />
-        <option value="$PROJECT_DIR$/src/js/redux/modules/category.module.js" />
         <option value="$PROJECT_DIR$/src/js/redux/reducer.js" />
+        <option value="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.container.js" />
+        <option value="$PROJECT_DIR$/src/js/components/index/App.jsx" />
         <option value="$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.container.js" />
+        <option value="$PROJECT_DIR$/src/js/redux/modules/category.module.js" />
+        <option value="$PROJECT_DIR$/src/scss/filePage.scss" />
         <option value="$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.jsx" />
+        <option value="$PROJECT_DIR$/src/js/components/form/input/SelectInput.jsx" />
+        <option value="$PROJECT_DIR$/src/js/components/form/input/TextInput.jsx" />
+        <option value="$PROJECT_DIR$/src/js/components/filePage/FilePage.jsx" />
+        <option value="$PROJECT_DIR$/src/js/components/form/fileUploader/FileUploader.jsx" />
+        <option value="$PROJECT_DIR$/src/scss/categoryPage.scss" />
         <option value="$PROJECT_DIR$/src/js/components/button/Button.jsx" />
         <option value="$PROJECT_DIR$/src/js/components/buttonSubmit/ButtonSubmit.jsx" />
+        <option value="$PROJECT_DIR$/src/js/components/buttonLink/ButtonLink.jsx" />
+        <option value="$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx" />
+        <option value="$PROJECT_DIR$/src/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/header/Header.jsx" />
       </list>
     </option>
   </component>
@@ -438,7 +433,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/webProjects/dashboardExample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -478,7 +473,8 @@
       <option name="presentableId" value="Default" />
       <updated>1562575546468</updated>
       <workItem from="1562575550007" duration="21517000" />
-      <workItem from="1562663250798" duration="8662000" />
+      <workItem from="1562663250798" duration="9948000" />
+      <workItem from="1562749526726" duration="5902000" />
     </task>
     <task id="LOCAL-00001" summary="Remove idea files">
       <created>1562576161857</created>
@@ -508,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562614250532</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add category form and list">
+      <created>1562689522818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562689522818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30179000" />
+    <option name="totallyTimeSpent" value="37367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -521,20 +524,20 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5029762" side_tool="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49925596" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49702382" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49702382" weight="0.32838285" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49925596" weight="0.32838285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +550,8 @@
     <MESSAGE value="Remove idea files" />
     <MESSAGE value="Add basic app structure, excel reader" />
     <MESSAGE value="Add file page with file table and file input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add file page with file table and file input" />
+    <MESSAGE value="Add category form and list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add category form and list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -569,9 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,12 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/resultPage.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/tablePage.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/font.css" />
     <entry file="file://$PROJECT_DIR$/src/js/core/fileReaders/excelReader.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -676,20 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/form/fileUploader/FileUploader.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/filePage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/filePage/FilePage.container.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -702,36 +683,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/index/routerConfig.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/header/menuItem/MenuItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/categoryPage.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/categoryListPage.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/redux/store.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -747,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,43 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/index/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/form/input/TextInput.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/filePage/FilePage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/form/Form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/form/Form.jsx" />
     <entry file="file://$PROJECT_DIR$/src/js/core/forms/category.form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -817,54 +729,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/form/input/SelectInput.jsx">
+    <entry file="file://$PROJECT_DIR$/src/js/redux/state/app.state.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/redux/modules/productUpload.module.input.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/state/app.state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="38" />
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/modules/category.module.js">
+    <entry file="file://$PROJECT_DIR$/src/js/components/index/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -873,18 +768,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/redux/modules/category.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/categoryListPage.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/resultPage.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/tablePage.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/form/input/SelectInput.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/form/input/TextInput.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/filePage/FilePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/form/fileUploader/FileUploader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/categoryPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/button/Button.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="213">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -893,8 +861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/buttonSubmit/ButtonSubmit.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -903,20 +871,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/buttonLink/ButtonLink.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="85">
+          <caret line="6" column="106" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/categoryPage/CategoryPage.jsx">
+    <entry file="file://$PROJECT_DIR$/src/js/components/categoryListPage/CategoryListPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/filePage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/header/menuItem/MenuItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

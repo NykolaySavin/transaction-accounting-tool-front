@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export default function SelectInput({ label, fieldName, items }) {
   return (
-    <div className="form-group">
+    <div className="form-group ">
       <label htmlFor="type">{label}</label>
       <Field
         name={fieldName}

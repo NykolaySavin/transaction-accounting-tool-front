@@ -11,7 +11,7 @@ export default function FilesPage({
 }) {
   return (
     <>
-      <div className="file-page">
+      <div className="page file-page">
         <div className="block input-block">
           <form>
             {error && <div>{error}</div>}
@@ -28,7 +28,7 @@ export default function FilesPage({
         </div>
         <div className="block table-block">
           <table className="table">
-            <thead className="thead-light">
+            <thead className="thead-dark">
               <tr>
                 <th scope="col">File Name</th>
                 <th scope="col">Deletion</th>

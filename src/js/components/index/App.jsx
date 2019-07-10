@@ -18,6 +18,7 @@ export default function App() {
           <Route exact path="/" component={FilesPage} />
           <Route exact path="/categories" render={() => <CategoryListPage />} />
           <Route exact path="/category" render={() => <CategoryPage />} />
+            <Route exact path="/category/:id" render={(props) => <CategoryPage />} />
           <Route exact path="/tables" component={TablePage} />
           <Route exact path="/result" component={ResultPage} />
         </div>

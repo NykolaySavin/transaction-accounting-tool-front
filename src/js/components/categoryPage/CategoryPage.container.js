@@ -6,12 +6,15 @@ import { handleSubmit } from "../../redux/modules/category.module";
 import { withRouter } from "react-router-dom";
 
 export const mapDispatchToProps = { onSubmit: handleSubmit };
-export const mapStateToProps = state => {
-  return { ...state };
+export const mapStateToProps = (state, ownProps) => {
+  const initialValues = state.categories.data.find(
+    item => item.id == ownProps.match.params.id
+  );
+  return { initialValues };
 };
 export default withRouter(
   connect(
-    null,
+    mapStateToProps,
     mapDispatchToProps
   )(reduxForm({ form: category.form })(CategoryPage))
 );

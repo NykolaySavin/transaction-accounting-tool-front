@@ -9,7 +9,7 @@ export default function Header() {
   const categoryPath = "/categories";
   const tablePath = "/tables";
   const resultPath = "/result";
-  const color = "#000137";
+  const color = "#212529";
   const size = 150;
   return (
     <div className="header">
