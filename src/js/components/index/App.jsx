@@ -4,7 +4,7 @@ import FilesPage from "../filePage/FilePage.container";
 import Header from "../header/Header";
 import CategoryListPage from "../categoryListPage/CategoryListPage.container";
 import CategoryPage from "../categoryPage/CategoryPage.container";
-import TablePage from "../tablePage/TablePage";
+import TablePage from "../tablePage/TablePage.container";
 import ResultPage from "../resultPage/ResultPage";
 import store from "../../redux/store";
 import { Provider } from "react-redux";
