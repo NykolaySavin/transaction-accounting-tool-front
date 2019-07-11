@@ -1,6 +1,6 @@
 import React from "react";
-import TextInput from "../form/input/TextInput";
-import SelectInput from "../form/input/SelectInput";
+import TextInput from "../form/input/FormTextInput";
+import SelectInput from "../form/input/FormSelectInput";
 import * as category from '../../core/forms/category.form';
 import ButtonSubmit from "../buttonSubmit/ButtonSubmit";
 import Button from "../button/Button";

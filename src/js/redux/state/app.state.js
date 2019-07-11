@@ -1,10 +1,14 @@
 export const state = {
   files: { data: [] },
   categories: { data: [] },
-    transactions:[]
+    transactions:[],
+    unusedRows:[],
+    unusedColumns:[]
 };
 export const test = {
   files: { data: [] },
   categories: { data: [] },
-    transactions:[]
+    transactions:[],
+    unusedRows:[],
+    unusedColumns:[]
 };
