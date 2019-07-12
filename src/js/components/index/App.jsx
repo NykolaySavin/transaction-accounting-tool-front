@@ -5,7 +5,7 @@ import Header from "../header/Header";
 import CategoryListPage from "../categoryListPage/CategoryListPage.container";
 import CategoryPage from "../categoryPage/CategoryPage.container";
 import TablePage from "../tablePage/TablePage.container";
-import ResultPage from "../resultPage/ResultPage";
+import ResultPage from "../resultPage/ResultPage.container";
 import store from "../../redux/store";
 import { Provider } from "react-redux";
 

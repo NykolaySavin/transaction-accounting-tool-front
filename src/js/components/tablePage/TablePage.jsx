@@ -32,7 +32,7 @@ export default function TablePage({
     event.stopPropagation();
     if (event.ctrlKey) {
       if (selectedRows.find(id => id == row.id))
-        selectRow(selectedRows.filter(id => row.id == id));
+        selectRow(selectedRows.filter(id => row.id != id));
       else selectRow([...selectedRows, row.id]);
     } else {
       selectRow([]);
@@ -58,7 +58,9 @@ export default function TablePage({
               <SelectInput
                 id="multiple-select"
                 value={
-                  selectedRows[0].Category ? selectedRows[0].Category : "select"
+                  items.find(item => item.id == selectedRows[0]).Category
+                    ? items.find(item => item.id == selectedRows[0]).Category
+                    : "select"
                 }
                 onChange={event =>
                   onMultipleCategoryChange({
@@ -96,6 +98,7 @@ export default function TablePage({
                   onClick={handleRowSelection.bind(null, item)}
                 >
                   {keysWithoutId.map(key => {
+
                     if (key == "Category") {
                       return (
                         <td key={key} className={findCellClass(key)}>
