@@ -1,12 +1,18 @@
 import { connect } from "react-redux";
 import TablePage from "./TablePage";
 import uuid from "uuid/v1";
-import {handleCategoryChange, handleColumnUseChange, handleRowUseChange} from "../../redux/modules/table.module";
+import {
+    handleCategoryChange,
+    handleColumnUseChange,
+    handleMultipleCategoryChange,
+    handleRowUseChange
+} from "../../redux/modules/table.module";
 
 export const mapDispatchToProps = {
     onCategoryChange:handleCategoryChange,
     handleRowCheckbox:handleRowUseChange,
-    handleColumnCheckbox:handleColumnUseChange
+    handleColumnCheckbox:handleColumnUseChange,
+    onMultipleCategoryChange:handleMultipleCategoryChange
 };
 export const mapStateToProps = state => {
     return {

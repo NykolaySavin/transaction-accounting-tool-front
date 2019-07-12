@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import * as table from "../../core/dataFunctions/table";
 import CheckboxInput from "../form/input/CheckboxInput";
+import SelectInput from "../form/input/SelectInput";
+
 export default function TablePage({
   items,
   categories,
@@ -8,9 +10,11 @@ export default function TablePage({
   unusedRows,
   handleRowCheckbox,
   unusedColumns,
-  handleColumnCheckbox
+  handleColumnCheckbox,
+  onMultipleCategoryChange
 }) {
   const [filter, changeFilter] = useState(false);
+  const [selectedRows, selectRow] = useState([]);
   const data = filter
     ? table.filterUnusedData(items, unusedColumns, unusedRows)
     : items;
@@ -18,6 +22,22 @@ export default function TablePage({
   const keysWithoutId = allKeys.filter(item => item != "id");
   const findCellClass = key =>
     unusedColumns.some(k => k == key) ? "table-danger" : "";
+  const findRowClass = row =>
+    unusedRows.find(id => row.id == id)
+      ? "table-danger"
+      : selectedRows.find(id => row.id == id)
+      ? "table-success"
+      : "";
+  const handleRowSelection = (row, event) => {
+    event.stopPropagation();
+    if (event.ctrlKey) {
+      if (selectedRows.find(id => id == row.id))
+        selectRow(selectedRows.filter(id => row.id == id));
+      else selectRow([...selectedRows, row.id]);
+    } else {
+      selectRow([]);
+    }
+  };
   return (
     <>
       <div className="page tables-page">
@@ -29,6 +49,28 @@ export default function TablePage({
             onChange={() => changeFilter(!filter)}
           />
         </div>
+        {selectedRows && selectedRows.length > 0 && (
+          <div className="block ">
+            <div className="form-group ">
+              <label htmlFor="multiple-select">
+                Multiple Category Selection:
+              </label>
+              <SelectInput
+                id="multiple-select"
+                value={
+                  selectedRows[0].Category ? selectedRows[0].Category : "select"
+                }
+                onChange={event =>
+                  onMultipleCategoryChange({
+                    categoryId: event.target.value,
+                    selectedIds: selectedRows
+                  })
+                }
+                items={categories}
+              />
+            </div>
+          </div>
+        )}
         <div className="block table-block">
           <table className="table">
             <thead className="thead-dark">
@@ -50,15 +92,14 @@ export default function TablePage({
               {data.map(item => (
                 <tr
                   key={item.id}
-                  className={
-                    unusedRows.find(id => item.id == id) ? "table-danger" : ""
-                  }
+                  className={findRowClass(item)}
+                  onClick={handleRowSelection.bind(null, item)}
                 >
                   {keysWithoutId.map(key => {
                     if (key == "Category") {
                       return (
                         <td key={key} className={findCellClass(key)}>
-                          <select
+                          <SelectInput
                             value={
                               categories.find(c => c.id == item[key])
                                 ? item[key]
@@ -70,15 +111,8 @@ export default function TablePage({
                                 id: item.id
                               })
                             }
-                            className="form-control"
-                          >
-                            <option value="select">Select Value</option>
-                            {categories.map(category => (
-                              <option key={category.id} value={category.id}>
-                                {category.name}
-                              </option>
-                            ))}
-                          </select>
+                            items={categories}
+                          />
                         </td>
                       );
                     }

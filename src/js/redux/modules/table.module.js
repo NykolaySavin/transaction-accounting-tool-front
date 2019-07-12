@@ -4,6 +4,10 @@ export const handleCategoryChange = createAction(
   "handle category change",
   ({ categoryId, id }) => ({ categoryId, id })
 );
+export const handleMultipleCategoryChange = createAction(
+  "handle multiple category change",
+  ({ categoryId, selectedIds }) => ({ categoryId, selectedIds })
+);
 export const handleRowUseChange = createAction(
   "handle row use change",
   id => id
@@ -22,6 +26,21 @@ export const reducer = {
       ...transactions[transactionIndex],
       Category: categoryId
     });
+    return { ...state, transactions };
+  },
+  [handleMultipleCategoryChange]: (state, { categoryId, selectedIds }) => {
+    const transactions = state.transactions.slice(0);
+    selectedIds.forEach(id => {
+      const transactionIndex = state.transactions.findIndex(t => t.id == id);
+
+      if (!categoryId || !transactions[transactionIndex]) return { ...state };
+
+      transactions.splice(transactionIndex, 1, {
+        ...transactions[transactionIndex],
+        Category: categoryId
+      });
+    });
+
     return { ...state, transactions };
   },
   [handleRowUseChange]: (state, id) => {
