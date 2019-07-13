@@ -2,12 +2,13 @@ import { connect } from "react-redux";
 import FilesPage from "./FilePage";
 import {
   handleFileDeletion,
-  handleFileInput
+  handleFileInput,handleSignChange
 } from "../../redux/modules/productUpload.module.input";
 
 export const mapDispatchToProps = {
   handleFileInput,
-  handleFileDeletion
+  handleFileDeletion,
+    handleSignChange
 };
 export const mapStateToProps = state => {
   return {

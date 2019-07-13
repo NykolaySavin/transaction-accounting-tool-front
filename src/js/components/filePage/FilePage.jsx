@@ -3,10 +3,13 @@ import FileUploader from "../form/fileUploader/FileUploader";
 import { Redirect } from "react-router-dom";
 import readExcel from "../../core/fileReaders/excelReader";
 import Button from "../button/Button";
+import SelectInput from "../form/input/SelectInput";
+import CheckboxInput from "../form/input/CheckboxInput";
 
 export default function FilesPage({
   handleFileInput,
   handleFileDeletion,
+    handleSignChange,
   files: { data, error }
 }) {
   return (
@@ -31,6 +34,7 @@ export default function FilesPage({
             <thead className="thead-dark">
               <tr>
                 <th scope="col">File Name</th>
+                  <th scope="col">Reverse transaction sign</th>
                 <th scope="col">Deletion</th>
               </tr>
             </thead>
@@ -38,6 +42,7 @@ export default function FilesPage({
               {data.map(file => (
                 <tr key={file.id}>
                   <td>{file.name}</td>
+                    <td><CheckboxInput id={file.id} checked={file.sign} onChange={()=>handleSignChange(file.id)}/></td>
                   <td>
                     <Button
                       label="Delete"
