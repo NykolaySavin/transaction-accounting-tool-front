@@ -5,6 +5,6 @@ import * as table from "./modules/table.module";
 import { state } from "./state/app.state";
 
 export default createReducer(
-  { ...productUpload.reducer, ...category.reducer,...table.reducer },
+  { ...productUpload.reducer, ...category.reducer, ...table.reducer },
   state
 );

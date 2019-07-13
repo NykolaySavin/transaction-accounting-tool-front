@@ -1,19 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import * as resultReducer from '../../core/dataFunctions/result';
 import Button from "../button/Button";
+import TextInput from "../form/input/TextInput";
 
 
-export default function ResultPage({transactions,categories}) {
-    console.dir(transactions)
-    const groups = resultReducer.groupTransactions(transactions,'Category');
-    const tables = groups.map(resultReducer.mapTransactionGroup.bind(null,categories));
-    console.dir(groups);
-    console.dir(tables);
+export default function ResultPage({tables}) {
+    const [additionalAdjustment,setAdditionalAdjustment]=useState('');
+    const [monthAdjustment,setMonthAdjustment]=useState('');
     return (
         <>
             <div className="page result-page">
+                <div className='block'>
+                    <TextInput label='Additional Adjustment' fieldName='additionalAdjustment' onChange={setAdditionalAdjustment}/>
+                    <TextInput label='Month Adjustment' fieldName='monthAdjustment' onChange={setMonthAdjustment}/>
+                </div>
                 <div className="block ">
-                    <Button onClick={()=>resultReducer.createExcelOutput(tables)} label='Download result'/>
+                    <Button onClick={()=>resultReducer.createExcelOutput(tables,additionalAdjustment,monthAdjustment)} label='Download result'/>
                 </div>
             </div>
         </>

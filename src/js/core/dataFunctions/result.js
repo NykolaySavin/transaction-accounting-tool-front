@@ -24,38 +24,73 @@ export const mapTransactionGroup = (categories, transactionGroup) => {
     );
   const accumulator = table
     .filterUnusedData(transactionGroup.data, ["id", "Category"], [])
-    .map((item, i) => {
+    .map(item => {
       const result = { ...item };
       if (result["Amount"]) {
         result[`Adjusted @ ${category.percent}%`] =
           (result["Amount"] * category.percent) / 100;
       }
-      result[`${category.name} @ ${category.percent}%`] = `${
-        category.name
-      } ${i}`;
       return result;
     });
-  return { data: accumulator, name: category.name };
+  const total = accumulator.reduce(
+    (acc, cur) => acc + cur[`Adjusted @ ${category.percent}%`],
+    0
+  );
+  const sign = category.type == "Credit" ? false : true;
+  return { data: accumulator, name: category.name, total, sign };
 };
-export const createExcelOutput = resultGroups => {
+export const createExcelOutput = (
+  resultGroups,
+  additionalAdjustment,
+  monthAdjustment
+) => {
   const workbook = XLSX.utils.book_new();
   resultGroups.forEach(group => {
     const worksheet = XLSX.utils.json_to_sheet(group.data);
-    setWooksheetLength(worksheet,group.data)
+    setWooksheetLength(worksheet, group.data);
     XLSX.utils.book_append_sheet(workbook, worksheet, group.name);
   });
+  const totalCredit = resultGroups
+    .filter(group => !group.sign)
+    .reduce((acc, cur) => acc + cur.total, 0);
+  const totalDebit = resultGroups
+    .filter(group => group.sign)
+    .reduce((acc, cur) => acc + cur.total, 0);
+  const totalDebitMinusCredit =
+    totalDebit.round(4) -
+    totalCredit.round(4) +
+    Number.parseFloat(additionalAdjustment).round(4) +
+    Number.parseFloat(monthAdjustment).round(4);
+  const total = [
+    {
+      "Total Debit": totalDebit,
+      "Total Credit": totalCredit,
+      "Additional Adjustment": additionalAdjustment,
+      "Month Adjustment": monthAdjustment,
+      "Total Debit Minus Credit": totalDebitMinusCredit
+    }
+  ];
+  const worksheet = XLSX.utils.json_to_sheet(total);
+  setWooksheetLength(worksheet, total);
+  XLSX.utils.book_append_sheet(workbook, worksheet, "Totals");
   XLSX.writeFile(workbook, "result.xlsx");
 };
 export const setWooksheetLength = (worksheet, data) => {
-    const cols = Object.keys(data[0])
-        .map(
-            key =>
-                data
-                    .map(item => item[key])
-                    .reduce((acc, cur) => (acc.toString().length > cur.toString().length ? acc : cur), key).toString()
-                    .length + 2
-        )
-        .map(length => ({ wch: length }));
-    console.dir(cols)
+  const cols = Object.keys(data[0])
+    .map(
+      key =>
+        data
+          .map(item => item[key])
+          .reduce(
+            (acc, cur) =>
+              (acc ? acc.toString().length : 0) >
+              (cur ? cur.toString().length : 0)
+                ? acc
+                : cur,
+            key
+          )
+          .toString().length + 2
+    )
+    .map(length => ({ wch: length }));
   worksheet["!cols"] = cols;
 };

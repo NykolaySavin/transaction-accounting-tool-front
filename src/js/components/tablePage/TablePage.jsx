@@ -13,7 +13,6 @@ export default function TablePage({
   handleColumnCheckbox,
   onMultipleCategoryChange
 }) {
-  console.dir(items)
   const [filter, changeFilter] = useState(false);
   const [selectedRows, selectRow] = useState([]);
   const data = filter

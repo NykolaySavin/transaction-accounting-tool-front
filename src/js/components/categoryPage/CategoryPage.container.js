@@ -7,9 +7,10 @@ import { withRouter } from "react-router-dom";
 
 export const mapDispatchToProps = { onSubmit: handleSubmit };
 export const mapStateToProps = (state, ownProps) => {
-  const initialValues = state.categories.data.find(
+  let initialValues = state.categories.data.find(
     item => item.id == ownProps.match.params.id
   );
+  if (!initialValues) initialValues = { name: "", type: "Credit", percent: 0 };
   return { initialValues };
 };
 export default withRouter(
