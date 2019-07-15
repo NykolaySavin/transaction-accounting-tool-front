@@ -57,17 +57,17 @@ export const createExcelOutput = (
     .filter(group => group.sign)
     .reduce((acc, cur) => acc + cur.total, 0);
   const totalDebitMinusCredit =
-    totalCredit.round(4) -
-    totalDebit.round(4) +
+    totalDebit.round(4) -
+    totalCredit.round(4) +
     Number.parseFloat(additionalAdjustment).round(4) +
     Number.parseFloat(monthAdjustment).round(4);
   const total = [
     {
-      "Total Debit": totalDebit,
-      "Total Credit": totalCredit,
+      "Total Expenses": totalDebit,
+      "Total from Credits": totalCredit,
       "Additional Adjustment": additionalAdjustment,
-      "Month Adjustment": monthAdjustment,
-      "Total Debit Minus Credit": totalDebitMinusCredit
+      "Current Month Adjustment": monthAdjustment,
+      "Total Payout": totalDebitMinusCredit
     }
   ];
   const worksheet = XLSX.utils.json_to_sheet(total);
