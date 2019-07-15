@@ -57,8 +57,8 @@ export const createExcelOutput = (
     .filter(group => group.sign)
     .reduce((acc, cur) => acc + cur.total, 0);
   const totalDebitMinusCredit =
-    totalDebit.round(4) -
-    totalCredit.round(4) +
+    totalCredit.round(4) -
+    totalDebit.round(4) +
     Number.parseFloat(additionalAdjustment).round(4) +
     Number.parseFloat(monthAdjustment).round(4);
   const total = [
