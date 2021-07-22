@@ -71,7 +71,7 @@
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "4.2.0",
-    "xlsx": "^0.14.3",
+    "xlsx": "^0.17.0",
     "xlsx-style": "^0.8.13"
   },
   "scripts": {
